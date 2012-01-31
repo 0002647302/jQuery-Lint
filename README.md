@@ -20,6 +20,10 @@ Include it, **after jQuery** like this:
 
     <script src="jquery.js"></script>
     <script src="jquery.lint.js"></script>
+
+or for the hosted (minified) version use:
+
+    <script src="http://TwistedUmbrella.github.com/jQuery-Lint/jquery.lint.min.js" type="text/javascript" charset="utf-8"></script>
     
 Now, just use jQuery as you normally would. When you do something that jQuery Lint deems incorrect or a bad practice then you'll receive a warning in the console. Currently, it only works with Firebug (in Firefox). You can easily define another reporting mechanism within the script itself, but there's little reason to; the errors it reports are browser-agnostic, so you may as well do your testing in Firefox w/ Firebug.
 
